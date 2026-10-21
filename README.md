@@ -1,0 +1,5 @@
+This program execute a pipeline with commands. Either from a file given as input to the program or the user types the commands in. The commands need to be presented line by line. Only one command per line. The program is only allowed to have max 2 arguments as indata (the name of the program + one additional arguemnt). If only one parameter (the name of the program) the user will have to type the commands in self. NOTE stop by pressing ctrl + d. For example you can run the program with writing "./mexec" then press enter. After that you can type the commands, for example: seq 1 100 (NOTE it is one command and its arguemnt per line) tail -n 3 (NOTE it is one command and its arguemnt per line)
+
+To compile the program: type "make" in the terminal.
+
+This is an assignment from the bachelor program in computer science at Umeå University in the course "Systemnära programmering" (Year 2).
